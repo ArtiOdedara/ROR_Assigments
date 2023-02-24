@@ -8,6 +8,7 @@ The Account class should represent a customer's bank account and should have an 
 
 The ATM class should represent the ATM machine that customers interact with. It should have an initialize method that takes an Account object as a parameter. It should also have a start method that prompts customers for their PIN, and a show_options method that displays the available options for checking the balance, depositing, and withdrawing.
 
+
 When the customer selects an option to deposit or withdraw, use a proc or lambda to execute the corresponding method on the Account object.
 
 Use attribute accessor in the Account class to ensure that the balance can be accessed and modified by other classes.
