@@ -20,5 +20,6 @@ class Main
   print "Output: #{output_arr} \n"
   end
 end
+
 obj = Main.new
 obj.remove_duplicates
