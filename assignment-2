@@ -3,7 +3,6 @@
 and And && will return true only and only if both the inputs are true otherwise it will give false. 
 and has lower precedence than && unless it uses in brackets.
 
-
 2. Difference between next and break with examples. 
 
 next will ignore execution for current input if condition is true and jumps to the next input execution.
