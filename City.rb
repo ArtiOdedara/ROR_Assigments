@@ -1,13 +1,13 @@
 $city = "ahemdabad"
 
 class  User 
-    def displayCity()
+    def displayCity
       puts "User is located in #{$city}"
     end 
 end 
 
 class Company
-   def displayCity()
+   def displayCity
        puts "Company is located in #{$city}"
    end
 end 
@@ -15,5 +15,5 @@ end
 user1 = User.new 
 company1 = Company.new
 
-user1.displayCity()
-company1.displayCity()
+user1.displayCity
+company1.displayCity
