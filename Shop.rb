@@ -9,12 +9,13 @@ class Shop
     print "Enter gst:"
     @gst = gets.chomp.to_i     
    end
-   def getDetails()
+   def getDetails
       
       puts "Welcome to #{SHOP_NAME}!!" 
       puts "Welcome #{@username} your invoice with #{@gst}% gst are below: "
       puts "Product details:"
-      @totalcost = @p_price + @gst
+      gst_calc = (@p_price * @gst) / 100
+      totalcost = @p_price + gst_calc
       puts "#{@p_name} - #{@totalcost}"
        
    end
