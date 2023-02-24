@@ -1,4 +1,3 @@
-
 class Calc 
   attr_accessor :ans
   def start
