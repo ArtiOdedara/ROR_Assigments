@@ -12,5 +12,6 @@ When the customer selects an option to deposit or withdraw, use a proc or lambda
 
 Use attribute accessor in the Account class to ensure that the balance can be accessed and modified by other classes.
 
+
 2. Write a Ruby program that uses a Proc to implement a simple calculator. The program should take user input for two numbers and a mathematical operation, and then perform the operation on the numbers using the Proc.
 
