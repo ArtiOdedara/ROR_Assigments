@@ -22,7 +22,6 @@ class Main
       end
     end
     puts "String: #{str}"
-
   end
 end
 obj = Main.new
