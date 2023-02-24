@@ -1,3 +1,16 @@
+=begin
+Create a text file called `phonebook.txt` with content given below(NoCoding)
+   {'Ajay': '987643210', 'Shahrukh': '9876543211', 'Amitabh': '987654323'}
+
+   Now, create a program to read the hash stored in the file.
+   and give options to user
+    to find out phone number with person's name.
+    to save new number with name.
+    to delete number by name or by number if present(give sub options for selecting by number or by name).
+   Update file `phonebook.txt` with new hash details.
+   (Put validations: Person name should be unique, Number should be unique)
+=end
+
 class User_Options  
   def phone_book
 

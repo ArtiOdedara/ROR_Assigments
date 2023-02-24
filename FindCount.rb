@@ -1,3 +1,18 @@
+=begin
+ Create a text file called `array.txt` with content given below(NoCoding)
+   [0, 1, 6, 3, 5, 8, 2, 4, 1, 0, 2, 5, 6, 8, 9, 2, 7]
+
+   Now, Create a program to read that array stored in the file.
+   find out count of each unique element and 
+   stored it in a hash if count is greater than 1 else append/stored in new file called output.txt
+
+   Output should be:
+   (on console):
+   {0=>2, 1=>2, 6=>2, 5=>2, 8=>2, 2=>3}
+   (in `output.txt`):
+   {3=>1, 4=>1, 9=>1, 7=>1}
+=end
+
 class Main
   def find_count
     aFile = File.open("array.txt", 'r')

@@ -1,3 +1,12 @@
+=begin
+ Sort a hash by the values of another array.
+   Input:
+     elements = ['two', 'three', 'one']
+     hash_to_be_sorted = {'three' => 3, 'two' => 2, 'one' => 1}
+   Output:
+     {'two'=>2, 'three'=>3, 'one'=>1}
+=end
+
 class Main
   def sort_hash(elements, hash_to_be_sorted)
     sort_hash_proc = Proc.new{
