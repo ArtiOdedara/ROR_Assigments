@@ -1,3 +1,7 @@
+=begin
+Write Program that using date-time ruby operations and ranges, accept start year, end year and date, and program will check that given date is inside that start year and end year or not
+=end
+ 
 class Main
   require 'date'
   def find_date
