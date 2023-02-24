@@ -13,8 +13,7 @@ class Main
     square_of_nums = sum_of_numbers ** 2
     diff = square_of_nums - sum_of_squares
     puts diff
-  end
-    
+  end  
 end
 
 obj = Main.new
