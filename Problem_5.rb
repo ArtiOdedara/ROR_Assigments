@@ -23,7 +23,6 @@ class Main
     puts "Input: #{input}"
     puts "Output: #{my_str.to_i}" 
 
-
   end
 end
 
