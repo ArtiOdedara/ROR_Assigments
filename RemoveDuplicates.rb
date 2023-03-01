@@ -3,15 +3,15 @@ Given an array of numbers, remove the duplicates such that each unique element a
 Input: numbers = [0,0,1,1,1,2,2,3,3,4]
 Expected output: [0,1,2,3,4, nil, nil, nil, nil, nil]
 =end
-class Main
+class RemoveDuplicates
   def remove_duplicates
     input_arr = [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
     output_arr = []
-    input_arr.each { |i|
-    if !output_arr.include?(i)
-      output_arr.push(i)
+    input_arr.each do |i|
+      if !output_arr.include?(i)
+        output_arr.push(i)
+      end
     end
-  }
   len = input_arr.length - output_arr.length
   for i in 1..len
     output_arr.push(nil)
@@ -21,5 +21,5 @@ class Main
   end
 end
 
-obj = Main.new
+obj = RemoveDuplicates.new
 obj.remove_duplicates
