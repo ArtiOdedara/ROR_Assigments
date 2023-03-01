@@ -3,7 +3,7 @@ Write a function to find the longest common prefix string amongst an array of st
 Input: string = ["challenge","characteristic","champion"] 
 Expected output: "cha"
 =end
-class Main
+class LongestCommonPrefix
   def longest_prefix
     input = ["challenge","characteristic","champion"] 
     arr = input.sort
@@ -19,5 +19,5 @@ class Main
   end
 end
 
-obj = Main.new
+obj = LongestCommonPrefix.new
 obj.longest_prefix
