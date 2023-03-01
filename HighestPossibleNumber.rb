@@ -4,7 +4,7 @@ Your task is to make a function that can take any non-negative integer
  Essentially, rearrange the digits to create the highest possible number.
 =end
 
-class Main
+class HighestPossibleNumber
   def desc_number(n)
     input = n 
     num = n.to_s
@@ -26,6 +26,6 @@ class Main
   end
 end
 
-obj = Main.new
+obj = HighestPossibleNumber.new
 obj.desc_number( 123456789 )
 
