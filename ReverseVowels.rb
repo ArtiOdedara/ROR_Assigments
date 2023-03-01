@@ -3,10 +3,10 @@ Reverse only vowels in the given string.
 Input: string = "communication"
 Expected output: "comminacituon"
 =end
-class Main
+class ReverseVowels
   def reverse_vowels
     str = "communication"
-    vowels = ['a', 'e', 'i', 'o', 'u']
+    vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
     len = str.length
     start_ptr = 0
     end_ptr = len-1
@@ -24,5 +24,5 @@ class Main
     puts "String: #{str}"
   end
 end
-obj = Main.new
+obj = ReverseVowels.new
 obj.reverse_vowels
